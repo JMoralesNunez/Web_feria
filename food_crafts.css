@@ -114,6 +114,9 @@ header p {
 
 
 @media (max-width: 480px) {
+    header{
+        padding-top: 5vh;
+    }
     header h1 {
         font-size: 1.8rem;
     }
