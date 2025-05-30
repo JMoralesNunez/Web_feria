@@ -6,7 +6,11 @@
 
 @font-face {
     font-family: 'Blank'  ;
-    src: url(./fonts/Blank\ River.ttf) format('truetype');
+    src:url(./fonts/Blank\ River.eot);
+    src:url(./fonts/Blank\ River.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/Blank\ River.ttf) format('truetype'),
+        url(./fonts/Blank\ River.woff) format('woff'),
+        url(./fonts/Blank\ River.svg#svgBlank) format('svg');
 }
 
 body {
