@@ -27,6 +27,7 @@ body {
     position: fixed;
     top: 1em;
     left: 0;
+    z-index: 1;
 }
 .nav__item{
     text-decoration: none;
