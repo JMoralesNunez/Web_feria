@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 1rem;
+}
+@font-face {
+    font-family: 'Blank'  ;
+    src:url(./fonts/Blank\ River.eot);
+    src:url(./fonts/Blank\ River.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/Blank\ River.ttf) format('truetype'),
+        url(./fonts/Blank\ River.woff) format('woff'),
+        url(./fonts/Blank\ River.svg#svgBlank) format('svg');
+
+}
+
+.navbar{
+    background-color: #333;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 1em;
+    left: 0;
+    z-index: 1;
+}
+.nav__item{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.nav__item:hover{
+    color: #e74c3c;
+}
+
+.nav__item:visited{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+main h1, h2 {
+    font-size: 2.5rem;
+    color: #c0392b;
+    margin-bottom: 0.5rem;
+    font-family: Blank ;
+}
+.programacion-festival{
+    padding-top: 10vh;
+}
+
+.cronograma-container{
+    background-color: #7e7878;
+    font-family: 'Montserrat','segoe UI',sans-serif;
+    max-width: 1000px;
+    padding: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+.tabla-cronograma{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-block: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
