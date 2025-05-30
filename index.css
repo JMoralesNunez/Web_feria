@@ -13,10 +13,9 @@
         url(./fonts/Blank\ River.svg#svgBlank) format('svg');
 
 }
-
 body {
     font-family: system-ui, sans-serif;
-    background-color: #fff8f0;
+    background-color: #e0f5fc;
     color: #333;
     line-height: 1.6;
     padding: 1rem;
@@ -57,9 +56,41 @@ header {
     text-align: center;
     margin-bottom: 2rem;
 }
+
+main{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-inline: auto;
+}
+
 main h1, h2 {
     font-size: 2.5rem;
     color: #c0392b;
     margin-bottom: 0.5rem;
     font-family: Blank ;
+}
+
+.title{
+    font-size: 5rem;
+}
+
+.panfleto{
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 75%;
+}
+
+li{
+    list-style: none;
+}
+
+.footer{
+    margin-block: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
